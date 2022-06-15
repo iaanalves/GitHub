@@ -83,24 +83,17 @@
                                     <input class="form-control form-control-color" type="color" name="cor">
                                 </div>
                             </div>
+
                             <div class="row mt-3">
-                                <label class="form-label col-4">Encontre seu Curso:</label>
+                                <label class="form-label col-4"></label>
                                 <div class="col-8">
                                     <input list="listaCursos" class="form-control" name="cursos"
-                                        placeholder="Escreva o nome do Curso">
-                                    <datalist id="listaCursos">
-                                        <option value="HTML 5">
-                                            </options>
-                                        <option value="HTML Iniciante">
-                                            </options>
-                                        <option value="CSS 3">
-                                            </options>
+                                        placeholder="">
+                                    <datalist id="listaCursos">                                        
                                         <option value="JavaScript">
                                             </options>
                                         <option value="Bootstrap 5">
-                                            </options>
-                                        <option value="PHP">
-                                            </options>
+                                            </options>                                       
                                     </datalist>
                                 </div>
                             </div>
@@ -117,6 +110,20 @@
                                         <option value="Bootstrap 5">Bootstrap 5</options>
                                         <option value="PHP">PHP</options>
                                     </select>
+
+                                    <label class="form-label col-4">Selecione o Curso:</label>
+                                <div class="col-8">
+                                    <select required class="form-select">
+                                        <option value="">Selecione</option>
+
+                                        <option value="HTML 5">HTML5</options>
+                                        <option value="HTML Iniciante">HTML Iniciante</options>
+                                        <option value="CSS 3">CSS 3</options>
+                                        <option value="JavaScript">JavaScript</options>
+                                        <option value="Bootstrap 5">Bootstrap 5</options>
+                                        <option value="PHP">PHP</options>
+                                    </select>
+                                    </div>
                                 </div>
                             </div>
 
